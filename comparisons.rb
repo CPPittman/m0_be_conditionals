@@ -30,7 +30,7 @@ puts  “Is number_teachers less than number_students?”, number_teachers < num
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
-puts “Is number_teachers equal to string_teachers?”, number_teachers = string_teachers
+puts “Is number_teachers equal to string_teachers?”, number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
