@@ -10,19 +10,61 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-weather = "sunny"
+  # question 1
+  weather = "sunny"
+  if weather == "sunny"
+    puts "sunscreen"
+  elsif weather == "rainy"
+    puts "umbrella"
+  elsif weather == "snowy"
+    puts "coat"
+  elsif weather == "icy"
+    puts "yak traks"
+  else
+    puts "good to go!"
+  end
+  
+    # question 2
+    weather = "rainy"
+    if weather == "sunny"
+      puts "sunscreen"
+    elsif weather == "rainy"
+      puts "umbrella"
+    elsif weather == "snowy"
+      puts "coat"
+    elsif weather == "icy"
+      puts "yak traks"
+    else
+      puts "good to go!"
+    end
 
-if weather == "sunny"
-  p "sunscreen"
-elsif weather == "rainy"
-  p "umbrella"
-elsif weather == "snowy"
-  p "coat"
-elsif weather == "icy"
-  p "yak traks"
-else
-  p "good to go!"
-end
+      # question 3
+  weather = "snowy"
+  if weather == "sunny"
+    puts "sunscreen"
+  elsif weather == "rainy"
+    puts "umbrella"
+  elsif weather == "snowy"
+    puts "coat"
+  elsif weather == "icy"
+    puts "yak traks"
+  else
+    puts "good to go!"
+  end
+
+    # question 4
+    weather = "icy"
+    if weather == "sunny"
+      puts "sunscreen"
+    elsif weather == "rainy"
+      puts "umbrella"
+    elsif weather == "snowy"
+      puts "coat"
+    elsif weather == "icy"
+      puts "yak traks"
+    else
+      puts "good to go!"
+    end
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'sunscreen'
@@ -43,14 +85,22 @@ end
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+if num_quarters >= 2
+	puts "I don't have enough money for a gumball"
+elsif num_quarters <= 2
+	puts "I don't have enough money for a gumball"
+end
+
+# puts "I have enough money for a gumball"
+# puts "I don't have enough money for a gumball"
 
 
 #####################
 # Using the variables defined below, write code that will tell you
 # if you have the ingredients to make a pizza. A pizza requires 
 # at least two cups of flour and sauce.
+
+
 
 # You should be able to change the variables to achieve the following outputs:
 # If cups_of_flour = 1 and has_sauce = true, print "I cannot make pizza"
@@ -63,3 +113,61 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+
+# question 1
+cups_of_flour = 1
+has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce == true
+	p "I can make a pizza"
+elsif cups_of_flour >=2 && has_sauce == false
+	p "I cannot make a pizza"
+elsif cups_of_flour < 2 && has_sauce == true
+	p "I cannot make a pizza"
+elsif cups_of_flour < 2 && has_sauce == false
+	p "I cannot make a pizza"
+end
+
+
+# question 2
+cups_of_flour = 5
+has_sauce = false
+
+if cups_of_flour >= 2 && has_sauce == true
+	p "I can make a pizza"
+elsif cups_of_flour >=2 && has_sauce == false
+	p "I cannot make a pizza"
+elsif cups_of_flour < 2 && has_sauce == true
+	p "I cannot make a pizza"
+elsif cups_of_flour < 2 && has_sauce == false
+	p "I cannot make a pizza"
+end
+
+# question 3
+cups_of_flour = 2
+has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce == true
+	p "I can make a pizza"
+elsif cups_of_flour >=2 && has_sauce == false
+	p "I cannot make a pizza"
+elsif cups_of_flour < 2 && has_sauce == true
+	p "I cannot make a pizza"
+elsif cups_of_flour < 2 && has_sauce == false
+	p "I cannot make a pizza"
+end
+
+# question 4
+cups_of_flour = 3
+has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce == true
+	p "I can make a pizza"
+elsif cups_of_flour >=2 && has_sauce == false
+	p "I cannot make a pizza"
+elsif cups_of_flour < 2 && has_sauce == true
+	p "I cannot make a pizza"
+elsif cups_of_flour < 2 && has_sauce == false
+	p "I cannot make a pizza"
+end
